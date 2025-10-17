@@ -16,7 +16,7 @@ variables:
 
 steps:
 - task: Maven@3
-  displayName: 'Build Mule Application'
+  displayName: 'Build Hello Mule Application'
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'clean package'
